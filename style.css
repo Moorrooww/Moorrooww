@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;900&display=swap');
+
+  
 html{
     scroll-behavior: smooth!important;
 }
@@ -222,6 +224,7 @@ nav li a {
     align-items: center;
     flex-direction: row-reverse;
     gap: 71px;
+    margin-top: 35px;
 }
 #moi{
     border-radius: 100%;
@@ -236,10 +239,32 @@ nav li a {
 }
 #presentation h2{
     width: 290px;
+    margin-bottom: 20px;
 }
 #presentation h1{
     font-size: 38px;
     margin-bottom: 0;
+}
+#presentation h3{
+    display: flex;
+    justify-content: space-around;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.apropo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.compete p{
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
 }
 .article img{
     object-fit: cover;
@@ -280,7 +305,7 @@ main h2{
 .bonjour{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 5px;
+   
 }
 .bonjour p{
     line-height: 1,2;
@@ -388,6 +413,7 @@ p{
     font-style: normal;
     margin-top: 30px;
 }
-.apropos{
+#apropos{
     display: flex;
 }
+
