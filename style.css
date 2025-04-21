@@ -395,14 +395,15 @@ p{
     align-items: center;
     font-family: sans-serif;
     text-transform: uppercase;
-    gap: 5px;
+    gap: 190px;
     border-radius: 16px;
     overflow: hidden;
     -webkit-box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.24); 
     box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.24);
     padding: 16px;
     margin: 80px;
-    margin-top: 40px;
+    margin-top: 0px;
+ 
 }
 #parcours h3{
     display: flex;
@@ -415,5 +416,16 @@ p{
 }
 #apropos{
     display: flex;
+}
+#foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    background-color:black;
+    border-bottom: solid white;
+    border-top: solid white;
+    margin: 48px;
 }
 
