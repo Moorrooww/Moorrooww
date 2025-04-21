@@ -428,4 +428,10 @@ footer{
     border-top: solid white;
     margin: 48px;
 }
+#logod{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 
