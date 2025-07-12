@@ -258,8 +258,8 @@ nav li a {
 }
 .apropo{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 .compete p{
     font-family: "DM Serif Display", serif;
@@ -294,6 +294,7 @@ nav li a {
     display: flex;
     flex-direction: column;
     padding: 10px;
+    font-size: 3vh;
 }
 
 main h2{
@@ -334,7 +335,7 @@ main h2{
     margin: 0;
     margin-bottom: 15px;
     margin-top: 6px;
-    font-size: 13px;
+    font-size: 70%;
     line-height: 1,2;
 
 }
@@ -342,7 +343,7 @@ main h2{
 .information h3{
 
     font-family: "Monoton", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
 }
 .contentarticle{
@@ -382,7 +383,7 @@ p{
     margin: 0;
     margin-bottom: 15px;
     margin-top: 6px;
-    font-size: 13px;
+    font-size: 100%;
     line-height: 1,2;
  }
 .dates h3{
